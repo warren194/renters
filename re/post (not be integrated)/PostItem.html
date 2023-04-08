@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            size: 2.5cm;
+            color:black (255, 0, 106);
+        }
+        body{
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <h1>Post Item</h1>
+
+    <form action="/url" method="GET">
+        <p>Please enter the name of the item</p>
+        <input type="text" name="username" minlength="3" required>
+    </form>
+    <form action="/url" method="GET">
+        <p>Please provide a brief description of the item</p>
+        <input type="text" name="username" minlength="3" required>
+    </form>
+
+    <form action="/url" method="GET">
+        <p>Please enter the duration you want to rent out the item for</p>
+        <input type="text" name="username" minlength="3" required>
+    </form>
+
+    <form action="/url" method="GET">
+        <p>Please enter the rent amount</p>
+        <input type="text" name="username" minlength="3" required>
+    </form>
+     <br>
+     
+    <label for="avatar">Choose a picture:</label>
+    <input type="file"
+           id="avatar" name="avatar"
+           accept="image/png, image/jpeg, image/jpg">
+    
+    <button type="button">Post Item</button> 
+     
+</body>
+</html>
