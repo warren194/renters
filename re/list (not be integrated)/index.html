@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Listings</title>
+    <style>
+        img{
+            width: 150px;
+        }
+        .column {
+            float:left;
+            width: 25%;
+            padding: 0px;
+        }
+        .row::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        body{font-family: Arial, Helvetica, sans-serif;}
+    </style>
+    </head>
+
+    <body>
+        <h1> Welcome to RenTers! </h1>
+        <div class="row">
+            <div class="column">
+                <img src="images/chargers.jpg"> 
+                <p> Chargers </p>
+            </div>
+
+           <div class="column">
+                <img src="images/laptops.jpg">
+                <p> Laptops </p>
+            </div>
+                
+            <div class="column"> 
+                <img src="images/textbooks.jpeg"> 
+                <p> Textbooks </p>
+            </div>
+
+            <div class="column">
+                <img src="images/umbrellas.jpg">
+                <p> Rain Protection </p>
+            </div>
+        </div>  
+
+        <h2> New Rentals for You! </h2>
+
+        <div class="row">
+            <div class="column">
+                <a href="rentalPage1.html" target="_blank">
+                    <img src="images/ipad.jpg" style="width: 200px; height: 200px; margin-right: 10px;">
+                    <h3>iPad 5th Generation</h3>
+                    <p> $15 </p>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="rentalPage2.html" target="_blank">
+                    <img src="images/Calculator.jpeg" style="width:150px; height: 200px; margin-right: 10px;">
+                    <h3>Scientific Calculator</h3>
+                    <p> $10 </p>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="rentalPage3.html" target="_blank">
+                    <img src="images/raincoat.jpg" style="width: 150px; height: 200px; margin-right: 10px;">
+                    <h3>Pink Parka</h3>
+                    <p> $15 </p>
+                </a>
+            </div>
+
+        </div>
+
+        <form target="ifr">
+            <label for="pickup">Pick Up: </label>
+            <input type="text" id="pickup" name="pickup">
+        </form>
+
+    </body>
+</html>

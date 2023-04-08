@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="dropdown">
+      <button onclick="displayMenu()" class="dropbtn">RenTers</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="menu/Login.html">Login</a>
+        <a href="menu/Listings.html">Listings</a>
+        <a href="menu/Contact.html">Help</a>
+        <a href="menu/My Account.html">My acoount</a>
+      </div>
+    </div>
+
+    <div class="searchbox">
+      <label for="gsearch">Search:</label>
+      <input
+        type="search"
+        id="gsearch"
+        name="gsearch"
+        placeholder="I am looking for.."
+      />
+      <input type="submit" />
+    </div>
+
+    <div class="startl">
+      <h1>New Rentals For You!</h1>
+    </div>
+    <div class="laptop">
+      <img
+        src="images/laptop.jpeg"
+        alt="This is image of a I3 generation hp laptop"
+      />
+      <p class="username">Hp Laptop I3 core processor</p>
+      <p class="username">Rent price: $25 per week</p>
+    </div>
+
+    <div class="charger">
+      <a href="charger.html"
+        ><img
+          src="images/charger.jpg"
+          alt="This is a image of a laptop charger"
+      /></a>
+      <p class="username">
+        45W Laptop Charger for HP Stream 11 13 14 Series (All Models)
+      </p>
+      <p class="username">Rent Price: $2 per day</p>
+    </div>
+
+    <div class="book">
+      <img src="images/book.jpg" alt="Image of book Two Trees Make A Forest" />
+      <details class="username">
+        <summary>Two Trees Make a Forest</summary>
+        <p class>
+          This book is in good condition to read, renters are required to keep
+          it in the same good condition while returning
+        </p>
+      </details>
+      <p class="username">Rent Price: $10 for 3 months</p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
